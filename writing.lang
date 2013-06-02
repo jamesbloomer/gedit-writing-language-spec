@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language id="writing" _name="Writing" version="2.0" _section="Other">
+  <metadata>
+    <property name="mimetypes">text/plain</property>
+    <property name="globs">*.txt</property>
+  </metadata>
+
+  <definitions>
+
+    <context id="writing">
+      <include>
+        <context id="comment" style-ref="def:error">
+          <start>\[</start>
+          <end>\]</end>
+        </context>
+      </include>
+    </context>
+
+  </definitions>
+</language>
